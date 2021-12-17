@@ -1,0 +1,56 @@
+<head>
+<style>
+  .sidebar {
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 100vh;
+    width: 300px;
+    background-color: brown;
+    /* padding: 0; */
+  }
+  .contetn{
+    background-color: burlywood;
+    margin-left: 300px;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position:fixed;
+  }
+  .modal-body{
+    background-color: white;
+    height: 30%;
+    margin-left: 300px;
+    width: 30%;
+  }
+  
+  .modal{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: grey;
+    top:0;
+    margin-left:290px;
+    padding-left: 0; 
+    z-index: 10;
+  }
+  .position {
+    position: relative;
+    z-index: 0;
+  }
+</style>
+</head>
+
+<body>
+<div class="position">
+
+  <div class=modal>
+    <div class="modal-body"> <h1> Im a modal</h1>  </div>
+  </div>
+  
+</div>
+
+  <div class="sidebar"><h1>im a side bar</h1> </div>
+  <div class="contetn"> <h1> im a soem content</h1> </div>
+</body>
